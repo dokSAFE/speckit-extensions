@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-09T00:00:00Z",
-  "catalog_url": "https://raw.githubusercontent.com/github/spec-kit/main/extensions/catalog.community.json",
-  "extensions": [
-    {
+  "updated_at": "2026-09-10T00:00:00Z",
+  "catalog_url": "https://raw.githubusercontent.com/dokSAFE/speckit-extensions/main/catalog-actaport.json",
+  "extensions": {
+    "okf": {
       "name": "OKF Knowledge Bundle Generator (OpenWiki engine)",
       "id": "okf",
-      "description": "…",
+      "version": "2.0.0",
+      "description": "Generates and maintains an Open Knowledge Format (OKF v0.2) knowledge bundle from a source-code repository, using OpenWiki as the generation engine. Supports Claude Code and Junie.",
       "author": "Didier",
-      "version": "1.0.0",
-      "download_url": "https://github.com/dokSAFE/speckit_okf/archive/refs/tags/v1.0.0.zip",
-      "repository": "https://github.com/dokSAFE/speckit_okf.git",
-      "homepage": "https://github.com/dokSAFE/speckit_okf.git",
+      "repository": "https://github.com/dokSAFE/speckit_okf",
+      "homepage": "https://github.com/dokSAFE/speckit_okf",
       "documentation": "https://github.com/dokSAFE/speckit_okf/blob/main/README.md",
       "license": "MIT",
+      "download_url": "https://github.com/dokSAFE/speckit_okf/archive/refs/heads/main.zip",
       "requires": { "speckit_version": ">=0.12.0" }
     }
-  ]
+  }
 }
